@@ -43,7 +43,6 @@ elif b>a and b>c:
 else:
     print("c en büyük sayıdır")
 
-
  #4-Dairenin alanını ve çevresini hesaplayan python kodunu yazınız.(Dairenin yarıçapını kullanıcıdan alınız)
 yaricap = input("Lutfen dairenin yaricapini giriniz:" )
 
@@ -51,8 +50,6 @@ dairenincevresi = 23.14
 daireninalani= 3.14 
 print("Dairenin cevresi: " + str(dairenincevresi))
 print("Dairenin alani: " + str(daireninalani))
-
-
 
 #5-Kullanıcıdan alınan bir sayının palindrom olup olmadığını bulan bir program yazınız.
 metin = input('Metni Girin : \n')

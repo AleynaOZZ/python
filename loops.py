@@ -38,3 +38,11 @@ for student in students:
     if student == "Yağmur": #bir sonraki ile devam et
         continue
     print(f"Ogrenci: {student}")
+
+
+
+#while
+i=0
+while i<10: #true olursa sonsuz döngü olur ve işletim sistemimini yorar
+    print("Merhaba")
+    i=i+1
