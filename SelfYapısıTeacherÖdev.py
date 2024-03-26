@@ -5,18 +5,18 @@ Classlarımız içerisinde self keywordü kullanalım. Class içi fonksiyonlarda
 
 class Teacher:
     #attribute,property,field
-    def __init__(self, name, age) -> None:
+    def __init__(self, name, lesson) -> None:
         self.name = name
-        self.age = age
+        self.alessonge = lesson
         print("Yapıcı bloklar çalıştı")
 
     #method, davranışlarımızı
     def classes(self, message):
-        print(f"{self.name}, {self.age} yaşında, {message}")
+        print(f"{self.name} is teaching")
 
-    def study(self):
-        print(f"{self.name} is teaching...")
+    def rest(self):
+        print(f"{self.name} is resting...")
 
-teacher = Teacher("Ayşe", 25)
+teacher = Teacher("Ayşe", "Matematik")
 teacher.classes("Derse girdim")
-teacher.study()
+teacher.rest()
